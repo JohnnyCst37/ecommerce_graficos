@@ -88,6 +88,7 @@ Visualiza tendência entre número de avaliações e preço do produto.
 
 ```markdown
 ### 📊 Exemplo de Gráfico de Correlação
+```
 
 <img src="img/dispersao_nota_preco.png" alt="Dispersão permite analisar tendências" width="600"/>
 ```
