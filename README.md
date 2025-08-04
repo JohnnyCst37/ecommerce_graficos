@@ -45,20 +45,19 @@ Com o intuito de entender padrões, comportamentos e relações entre atributos 
 ---
 
 ## 📁 Estrutura do Projeto
-
+```
 ecommerce_gráficos/
 │
-├── sns_gráficos.py # Gráficos com Seaborn
-├── plt_gráficos.py # Gráficos com Matplotlib
-├── Dash_ecommerce.py # (opcional) versão futura interativa
-├── ecommerce_preparados.csv # Dataset tratado
-├── plot_types_python/ # Exemplos de tipos de gráficos
-└── README.md
+├── img/                      
+├── plot_types_python/         # Exemplos de diferentes tipos de gráficos matplotlib
+├── Dash_ecommerce.py          # Versão futura interativa do dashboard
+├── ecommerce_preparados.csv   # Dataset tratado para análise
+├── Plt_gráficos.py            # Script para geração de gráficos com Matplotlib
+├── Sns_gráficos.py            # Script para geração de gráficos com Seaborn
+└── README.md                  # Este arquivo
 
 yaml
-Copiar
-Editar
-
+````
 ---
 
 ## 📊 Exemplos de Gráficos
