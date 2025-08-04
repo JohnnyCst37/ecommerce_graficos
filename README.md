@@ -70,15 +70,15 @@ Distribuição das notas atribuídas pelos clientes.
 Avalia possível correlação entre preço e avaliação dos produtos.
 
 ```
+
 <img src="img/dispersao_nota_preco.png" alt="Dispersão permite analisar tendências" width="600"/>
+
 ```
 
 ### ✅ Mapa de Calor
 Mostra a correlação entre variáveis numéricas como preço, avaliações e vendas.
 
-```
-<img src="img/mapa_calor.png" alt="Mapa de Calor" width="600"/>
-```
+
 
 ### ✅ Gráfico de Barras
 Frequência de produtos por marca e por material.
