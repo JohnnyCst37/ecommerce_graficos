@@ -90,15 +90,6 @@ Exibe a distribuição de materiais, agrupando os menos frequentes em “Outros�
 Visualiza tendência entre número de avaliações e preço do produto.
 
 
----
-
-### 📸 4. **Inserir Imagens dos Gráficos**
-
-
-### 📊 Exemplo de Gráfico de Correlação:
-
----
-
 ## 📌 Insights Possíveis
 
 - Produtos com **mais avaliações tendem a vender mais** (forte correlação).
