@@ -11,7 +11,7 @@
 - [Exemplos de Gráficos](#-exemplos-de-gráficos)
 - [Insights Possíveis](#-insights-possíveis)
 - [Como Executar](#-como-executar)
-- [Dataset](#-dataset)
+- [Dataset](#-dataset-(recomenda-se-usar-um-ambiente-virtual))
 - [Autor](#-autor)
 - [Licença](#-licença)
 
@@ -69,20 +69,20 @@ Distribuição das notas atribuídas pelos clientes.
 ### ✅ Gráfico de Dispersão: Preço vs Nota
 Avalia possível correlação entre preço e avaliação dos produtos.
 
-````
+```
 
 <img src="img/dispersao_nota_preco.png" alt="Dispersão permite analisar tendências" width="600"/>
-````
+```
 
 ### ✅ Mapa de Calor
 Mostra a correlação entre variáveis numéricas como preço, avaliações e vendas.
 
 
-````
+```
 
-<img src="img/mapa_calor.png" alt="Mapa de Calor" width="600"/>
+<img src="img/dispersao_nota_preco.png" alt="calor" width="600"/>
 
-````
+```
 
 ### ✅ Gráfico de Barras
 Frequência de produtos por marca e por material.
@@ -101,7 +101,7 @@ Visualiza tendência entre número de avaliações e preço do produto.
 ```markdown
 ### 📊 Exemplo de Gráfico de Correlação:
 
-
+```
 ---
 
 ## 📌 Insights Possíveis
@@ -117,11 +117,15 @@ Visualiza tendência entre número de avaliações e preço do produto.
 ```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/ecommerce-graficos.git
+```
 
-# Instale as dependências (recomenda-se usar um ambiente virtual)
+# Dataset (recomenda-se usar um ambiente virtual)
+```
 pip install pandas matplotlib seaborn
-Execute os arquivos .py diretamente no seu IDE (PyCharm ou VSCode).
+Execute os arquivos .py diretamente no seu IDE (PyCharm ou VSCode)
+```
 
-📎 Autor
+
+# Autor
 Johnny Sorato Martins Fernandes
 Consultor de Negócios | Especialista em Dados e Visualização | Diretor Executivo da Tutoreanos - Unidade Primavera do Leste
