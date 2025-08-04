@@ -40,7 +40,7 @@ Com o intuito de entender padrões, comportamentos e relações entre atributos 
 - Pandas
 - Matplotlib
 - Seaborn
-- Jupyter / PyCharm
+- PyCharm
 
 ---
 
@@ -82,7 +82,8 @@ Frequência de produtos por marca e por material.
 
 ### ✅ Gráfico de Pizza com Agrupamento de “Outros”
 Exibe a distribuição de materiais, agrupando os menos frequentes em “Outros”.
-<img src="img/Outros_menor_que_5" alt="Maiores correlações" width="600"/>
+
+<img src="img/Outros_menor_que_5.png" alt="Frequentes vs Raroes" width="600"/>
 
 
 ### ✅ Gráfico de Regressão Linear
