@@ -75,7 +75,7 @@ Avalia possível correlação entre preço e avaliação dos produtos.
 ### ✅ Mapa de Calor
 Mostra a correlação entre variáveis numéricas como preço, avaliações e vendas.
 
-<img src="img/dispersao_nota_preco.png" alt="calor" width="600"/>
+<img src="img/mapa_calor.png" alt="Maiores correlações" width="600"/>
 
 ### ✅ Gráfico de Barras
 Frequência de produtos por marca e por material.
