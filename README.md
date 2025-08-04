@@ -5,15 +5,15 @@
 
 ## Sumário
 
-- [🎯 Objetivo](#-objetivo)
-- [🧰 Tecnologias](#-Tecnologias-utilizadas)
-- [📁 Estrutura](#-estrutura-do-projeto)
-- [📊 Exemplos de Gráficos](#-exemplos-de-gráficos)
-- [📌 Insights Possíveis](#-insights-possíveis)
-- [🚀 Como Executar](#-como-executar)
-- [📥 Dataset](#-dataset)
-- [📎 Autor](#-autor)
-- [📌 Licença](#-licença)
+- [Objetivo](#-objetivo)
+- [Tecnologias](#-Tecnologias-utilizadas)
+- [Estrutura](#-estrutura-do-projeto)
+- [Exemplos de Gráficos](#-exemplos-de-gráficos)
+- [Insights Possíveis](#-insights-possíveis)
+- [Como Executar](#-como-executar)
+- [Dataset](#-dataset)
+- [Autor](#-autor)
+- [Licença](#-licença)
 
 
 # 📊 Análise Exploratória Gráfica — E-commerce
@@ -69,8 +69,16 @@ Distribuição das notas atribuídas pelos clientes.
 ### ✅ Gráfico de Dispersão: Preço vs Nota
 Avalia possível correlação entre preço e avaliação dos produtos.
 
+```
+<img src="img/dispersao_nota_preco.png" alt="Dispersão permite analisar tendências" width="600"/>
+```
+
 ### ✅ Mapa de Calor
 Mostra a correlação entre variáveis numéricas como preço, avaliações e vendas.
+
+```
+<img src="img/Mapa_calor.png" alt="Mapa de Calor" width="600"/>
+```
 
 ### ✅ Gráfico de Barras
 Frequência de produtos por marca e por material.
@@ -87,11 +95,8 @@ Visualiza tendência entre número de avaliações e preço do produto.
 ### 📸 4. **Inserir Imagens dos Gráficos**
 
 ```markdown
-### 📊 Exemplo de Gráfico de Correlação
-```
+### 📊 Exemplo de Gráfico de Correlação:
 
-<img src="img/dispersao_nota_preco.png" alt="Dispersão permite analisar tendências" width="600"/>
-```
 
 ---
 
