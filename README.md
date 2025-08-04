@@ -69,20 +69,13 @@ Distribuição das notas atribuídas pelos clientes.
 ### ✅ Gráfico de Dispersão: Preço vs Nota
 Avalia possível correlação entre preço e avaliação dos produtos.
 
-```
-
 <img src="img/dispersao_nota_preco.png" alt="Dispersão permite analisar tendências" width="600"/>
-```
+
 
 ### ✅ Mapa de Calor
 Mostra a correlação entre variáveis numéricas como preço, avaliações e vendas.
 
-
-```
-
 <img src="img/dispersao_nota_preco.png" alt="calor" width="600"/>
-
-```
 
 ### ✅ Gráfico de Barras
 Frequência de produtos por marca e por material.
@@ -98,10 +91,9 @@ Visualiza tendência entre número de avaliações e preço do produto.
 
 ### 📸 4. **Inserir Imagens dos Gráficos**
 
-```markdown
+
 ### 📊 Exemplo de Gráfico de Correlação:
 
-```
 ---
 
 ## 📌 Insights Possíveis
