@@ -6,7 +6,7 @@
 ## Sumário
 
 - [Objetivo](#-objetivo)
-- [Tecnologias](#-Tecnologias-utilizadas)
+- [Tecnologias](#-tecnologias-utilizadas)
 - [Estrutura](#-estrutura-do-projeto)
 - [Exemplos de Gráficos](#-exemplos-de-gráficos)
 - [Insights Possíveis](#-insights-possíveis)
@@ -69,19 +69,20 @@ Distribuição das notas atribuídas pelos clientes.
 ### ✅ Gráfico de Dispersão: Preço vs Nota
 Avalia possível correlação entre preço e avaliação dos produtos.
 
-```markdown
+````
 
 <img src="img/dispersao_nota_preco.png" alt="Dispersão permite analisar tendências" width="600"/>
-
-```
+````
 
 ### ✅ Mapa de Calor
 Mostra a correlação entre variáveis numéricas como preço, avaliações e vendas.
 
-```markdown
-<img src="img/mapa_calor.png" alt="Mapa de Calor" width="600"/>
-```
 
+````
+
+<img src="img/mapa_calor.png" alt="Mapa de Calor" width="600"/>
+
+````
 
 ### ✅ Gráfico de Barras
 Frequência de produtos por marca e por material.
