@@ -30,7 +30,9 @@ plt.show()
 # Produtos com mais avaliações quase sempre têm mais vendas.
 
 variaveis_numericas = ['Nota_MinMax', 'N_Avaliações_MinMax', 'Preço_MinMax',
-                       'Qtd_Vendidos_Cod', 'Marca_Freq', 'Material_Freq']
+                       'Qtd_Vendidos_Cod', 'Marca_Freq', 'Material_Freq',
+                       'Nota', 'Preço', 'Marca_Cod', 'Material_Cod', 'Temporada_Cod', 'Desconto_MinMax', 'Desconto'
+                       ]
 
 # Cálculo da matriz de correlação
 df_corr = df[variaveis_numericas].corr()
@@ -61,19 +63,19 @@ plt.xticks(rotation=45)
 plt.show()
 
 
-# 05_MARCA_COD VS QUANTIDADE_ GRAFICO_TOP 20
-# Construído a título de teste, mas ineficaz para a análise.
+# 05_MARCA VS QUANTIDADE_ GRAFICO_TOP 20
+
 top_n = 20
-marcas = df['Marca_Cod'].value_counts().head(top_n).reset_index()
-marcas.columns = ['Marca_Cod', 'Quantidade']
+marcas = df['Marca'].value_counts().head(top_n).reset_index()
+marcas.columns = ['Marca', 'Quantidade']
 
 plt.figure(figsize=(10, 8))
 sns.set_style("whitegrid")
-sns.barplot(data=marcas, y='Marca_Cod', x='Quantidade', color='#DF5F2E')
+sns.barplot(data=marcas, y='Marca', x='Quantidade', color='#DF5F2E')
 
 plt.title(f'Top {top_n} Marcas com Mais Produtos')
 plt.xlabel('Quantidade')
-plt.ylabel('Marca (Codificada)')
+plt.ylabel('Marca')
 plt.tight_layout()
 plt.show()
 
@@ -124,7 +126,7 @@ plt.show()
 sns.set_style("whitegrid")
 
 # Contagem dos materiais
-materiais = df['Material_Cod'].value_counts()
+materiais = df['Material'].value_counts()
 total = materiais.sum()
 limite_percentual = 0.05
 
@@ -171,6 +173,7 @@ plt.axis('equal')
 plt.tight_layout()
 plt.show()
 
+
 # 09_GRAFICO DE DENSIDADE (KDE) – Densidade de Preço
 # sns.kdeplot(...) → É a função ideal para gráficos de densidade (KDE).
 # fill=True → Preenche a área abaixo da curva, tornando o gráfico mais visual.
@@ -183,29 +186,29 @@ plt.grid(True)
 plt.show()
 
 
-# Gráfico de Regressão (Linear) – Preço vs. N_Avaliações
-# (com legenda automática "hue") - inviável devido o número de marcas
-sns.set_style("whitegrid")
-
-g = sns.lmplot(
-    x='Preço',
-    y='N_Avaliações',
-    data=df,
-    hue='Marca_Cod',  # ou 'Categoria' se tiver
-    height=6,
-    aspect=1.5,
-    scatter_kws={'alpha': 0.4},
-    line_kws={'linewidth': 2}
-)
-
-# Eixos e título
-g.set_axis_labels("Preço", "Número de Avaliações")
-g.fig.suptitle('Regressão Linear por Marca', fontsize=14)
-g.tight_layout()
-g.fig.subplots_adjust(top=0.92)  # espaço para o título
-
-# Legenda já aparece automaticamente
-plt.show()
+# # Gráfico de Regressão (Linear) – Preço vs. N_Avaliações
+# # (com legenda automática "hue") - inviável devido o número de marcas
+# sns.set_style("whitegrid")
+#
+# g = sns.lmplot(
+#     x='Preço',
+#     y='N_Avaliações',
+#     data=df,
+#     hue='Marca_Cod',  # ou 'Categoria' se tiver
+#     height=6,
+#     aspect=1.5,
+#     scatter_kws={'alpha': 0.4},
+#     line_kws={'linewidth': 2}
+# )
+#
+# # Eixos e título
+# g.set_axis_labels("Preço", "Número de Avaliações")
+# g.fig.suptitle('Regressão Linear por Marca', fontsize=14)
+# g.tight_layout()
+# g.fig.subplots_adjust(top=0.92)  # espaço para o título
+#
+# # Legenda já aparece automaticamente
+# plt.show()
 
 
 # GRAFICO DE REGRESSÃO (Linear) – Preço vs. N_Avaliações
@@ -257,3 +260,4 @@ plt.show()
 # Para adicionar legenda corretamente, você deve trabalhar com o objeto retornado (g) e o eixo dele.
 # plt.legend() → funciona com gráficos matplotlib direto.
 # sns.lmplot() → é um gráfico Seaborn que exige .ax.legend() para funcionar corretamente.
+
