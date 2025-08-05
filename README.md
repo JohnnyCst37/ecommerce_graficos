@@ -11,7 +11,7 @@
 - [Exemplos de Gráficos](#-exemplos-de-gráficos)
 - [Insights Possíveis](#-insights-possíveis)
 - [Como Executar](#-como-executar)
-- [Dataset](#-dataset)
+- [Dataset](#-dataset-(recomenda-se-usar-um-ambiente-virtual))
 - [Autor](#-autor)
 - [Licença](#-licença)
 
@@ -40,25 +40,24 @@ Com o intuito de entender padrões, comportamentos e relações entre atributos 
 - Pandas
 - Matplotlib
 - Seaborn
-- Jupyter / PyCharm
+- PyCharm
 
 ---
 
 ## 📁 Estrutura do Projeto
-
+```
 ecommerce_gráficos/
 │
-├── sns_gráficos.py # Gráficos com Seaborn
-├── plt_gráficos.py # Gráficos com Matplotlib
-├── Dash_ecommerce.py # (opcional) versão futura interativa
-├── ecommerce_preparados.csv # Dataset tratado
-├── plot_types_python/ # Exemplos de tipos de gráficos
-└── README.md
+├── img/                      
+├── plot_types_python/         # Exemplos de diferentes tipos de gráficos matplotlib
+├── Dash_ecommerce.py          # Versão futura interativa do dashboard
+├── ecommerce_preparados.csv   # Dataset tratado para análise
+├── Plt_gráficos.py            # Script para geração de gráficos com Matplotlib
+├── Sns_gráficos.py            # Script para geração de gráficos com Seaborn
+└── README.md                  # Este arquivo
 
 yaml
-Copiar
-Editar
-
+````
 ---
 
 ## 📊 Exemplos de Gráficos
@@ -69,20 +68,13 @@ Distribuição das notas atribuídas pelos clientes.
 ### ✅ Gráfico de Dispersão: Preço vs Nota
 Avalia possível correlação entre preço e avaliação dos produtos.
 
-````
-
 <img src="img/dispersao_nota_preco.png" alt="Dispersão permite analisar tendências" width="600"/>
-````
+
 
 ### ✅ Mapa de Calor
 Mostra a correlação entre variáveis numéricas como preço, avaliações e vendas.
 
-
-````
-
-<img src="img/mapa_calor.png" alt="Mapa de Calor" width="600"/>
-
-````
+<img src="img/mapa_calor.png" alt="Maiores correlações" width="600"/>
 
 ### ✅ Gráfico de Barras
 Frequência de produtos por marca e por material.
@@ -90,19 +82,12 @@ Frequência de produtos por marca e por material.
 ### ✅ Gráfico de Pizza com Agrupamento de “Outros”
 Exibe a distribuição de materiais, agrupando os menos frequentes em “Outros”.
 
+<img src="img/Outros_menor_que_5.png" alt="Frequentes vs Raroes" width="600"/>
+
+
 ### ✅ Gráfico de Regressão Linear
 Visualiza tendência entre número de avaliações e preço do produto.
 
-
----
-
-### 📸 4. **Inserir Imagens dos Gráficos**
-
-```markdown
-### 📊 Exemplo de Gráfico de Correlação:
-
-
----
 
 ## 📌 Insights Possíveis
 
@@ -117,11 +102,15 @@ Visualiza tendência entre número de avaliações e preço do produto.
 ```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/ecommerce-graficos.git
+```
 
-# Instale as dependências (recomenda-se usar um ambiente virtual)
+# Dataset (recomenda-se usar um ambiente virtual)
+```
 pip install pandas matplotlib seaborn
-Execute os arquivos .py diretamente no seu IDE (PyCharm ou VSCode).
+Execute os arquivos .py diretamente no seu IDE (PyCharm ou VSCode)
+```
 
-📎 Autor
+
+# Autor
 Johnny Sorato Martins Fernandes
 Consultor de Negócios | Especialista em Dados e Visualização | Diretor Executivo da Tutoreanos - Unidade Primavera do Leste
