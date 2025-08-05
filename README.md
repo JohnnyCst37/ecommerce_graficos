@@ -19,7 +19,7 @@
 
 Este repositório contém um conjunto de gráficos gerados com **Python**, utilizando as bibliotecas `Seaborn`, `Matplotlib` e `Pandas`, para análise exploratória de dados de um dataset de produtos de e-commerce.
 
-## 🎯 Objetivo
+## Objetivo
 
 Explorar visualmente relações entre variáveis como:
 
@@ -33,7 +33,7 @@ Com o intuito de entender padrões, comportamentos e relações entre atributos 
 
 ---
 
-## 🧰 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Python 3.13
 - Pandas
@@ -43,7 +43,7 @@ Com o intuito de entender padrões, comportamentos e relações entre atributos 
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 ```
 ecommerce_gráficos/
 │
@@ -59,7 +59,7 @@ yaml
 ````
 ---
 
-## 📊 Exemplos de Gráficos
+## Exemplos de Gráficos
 
 ### ✅ Histograma Produtos e quantidades por marca
 A quantidade de produtos influencia diretamente os resultados.
@@ -118,7 +118,7 @@ como popularidade, qualidade percebida e promoção, podem influenciar mais sign
 ajuda a visualizar tendências gerais, mas não é suficiente para prever com precisão o comportamento individual.
 ```
 
-## 📌 Insights Possíveis
+## Insights Possíveis
 
 - Produtos com **mais avaliações tendem a vender mais** (forte correlação).
 - **Preço** não tem forte correlação com **nota média**, indicando que produtos baratos podem ser bem avaliados.
@@ -126,7 +126,7 @@ ajuda a visualizar tendências gerais, mas não é suficiente para prever com pr
 
 ---
 
-## 🚀 Como executar
+## Como executar
 
 ```bash
 # Clone o repositório
