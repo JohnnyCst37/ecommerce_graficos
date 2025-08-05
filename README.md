@@ -140,6 +140,6 @@ Execute os arquivos .py diretamente no seu IDE (PyCharm ou VSCode)
 ```
 
 
-# Autor
+### Autor
 Johnny Sorato Martins Fernandes
 Consultor de Negócios | Especialista em Dados e Visualização | Diretor Executivo da Tutoreanos - Unidade Primavera do Leste
