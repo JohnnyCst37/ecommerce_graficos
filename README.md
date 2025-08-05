@@ -13,7 +13,6 @@
 - [Como Executar](#-como-executar)
 - [Dataset](#-dataset-(recomenda-se-usar-um-ambiente-virtual))
 - [Autor](#-autor)
-- [Licença](#-licença)
 
 
 # 📊 Análise Exploratória Gráfica — E-commerce
