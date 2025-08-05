@@ -63,7 +63,13 @@ yaml
 ## 📊 Exemplos de Gráficos
 
 ### ✅ Histograma de Notas dos Produtos
-Distribuição das notas atribuídas pelos clientes.
+A quantidade de produtos influencia diretamente os resultados.
+
+<img src="img/marcas_produtos.png" alt="Dispersão permite analisar tendências" width="600"/>
+
+# Faixa de preços de 100 a 400 são os mais polpulares.
+<img src="img/Desnidade_preco.png" alt="Dispersão permite analisar tendências" width="600"/>
+ 
 
 ### ✅ Gráfico de Dispersão: Preço vs Nota
 Avalia possível correlação entre preço e avaliação dos produtos.
@@ -74,7 +80,7 @@ Avalia possível correlação entre preço e avaliação dos produtos.
 ### ✅ Mapa de Calor
 Mostra a correlação entre variáveis numéricas como preço, avaliações e vendas.
 
-<img src="img/mapa_calor.png" alt="Maiores correlações" width="600"/>
+<img src="img/mp_cal.png" alt="Maiores correlações" width="600"/>
 
 ### ✅ Gráfico de Barras
 Frequência de produtos por marca e por material.
