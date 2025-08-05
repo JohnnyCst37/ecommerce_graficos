@@ -66,7 +66,7 @@ A quantidade de produtos influencia diretamente os resultados.
 
 <img src="img/marcas_produtos.png" alt="Dispersão permite analisar tendências" width="600"/>
 
-### Faixa de preços de 50 a 250 são os mais populares.
+### ✅ Faixa de preços de 50 a 250 são os mais populares.
 <img src="img/Desnidade_preco.png" alt="Dispersão permite analisar tendências" width="600"/>
  
 
