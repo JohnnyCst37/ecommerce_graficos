@@ -126,14 +126,14 @@ ajuda a visualizar tendências gerais, mas não é suficiente para prever com pr
 
 ---
 
-## Como executar
+### Como executar
 
 ```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/ecommerce-graficos.git
 ```
 
-# Dataset (recomenda-se usar um ambiente virtual)
+## Dataset (recomenda-se usar um ambiente virtual)
 ```
 pip install pandas matplotlib seaborn
 Execute os arquivos .py diretamente no seu IDE (PyCharm ou VSCode)
