@@ -96,9 +96,9 @@ Frequência de produtos por marca e por material.
 <img src="img/preços.png" alt="Preços populares" width="600"/> 
 
 ### ✅ Gráfico de Pizza com agrupamento de categorias de temporadas do Ano. 
-Exibe a distribuição de materiais, agrupando os menos frequentes em “Outros”.
+Exibe a Distribuição de Vendas por Estação do Ano.
 
-<img src="img/pizza_categoria_estacao.png" alt="Frequentes vs Raroes" width="600"/>
+<img src="img/pizza_categoria_estacao.png" alt="Temporadas e quantidades" width="600"/>
 
 
 ### ✅ Gráfico de Regressão Linear
