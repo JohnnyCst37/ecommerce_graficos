@@ -261,3 +261,4 @@ plt.show()
 # plt.legend() → funciona com gráficos matplotlib direto.
 # sns.lmplot() → é um gráfico Seaborn que exige .ax.legend() para funcionar corretamente.
 
+
