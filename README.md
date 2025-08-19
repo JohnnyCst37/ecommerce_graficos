@@ -5,14 +5,14 @@
 
 ## Sumário
 
-- [Objetivo](#-objetivo)
+- [Objetivo](#objetivo)
 - [Tecnologias](#tecnologias-utilizadas)
-- [Estrutura](#-estrutura-do-projeto)
-- [Exemplos de Gráficos](#-exemplos-de-gráficos)
-- [Insights Possíveis](#-insights-possíveis)
-- [Como Executar](#-como-executar)
-- [Dataset](#-dataset-(recomenda-se-usar-um-ambiente-virtual))
-- [Autor](#-autor)
+- [Estrutura](#estrutura-do-projeto)
+- [Exemplos de Gráficos](#exemplos-de-gráficos)
+- [Insights Possíveis](#insights-possíveis)
+- [Como Executar](#como-executar)
+- [Dataset](#dataset-(recomenda-se-usar-um-ambiente-virtual))
+- [Autor](#autor)
 
 
 # 📊 Análise Exploratória Gráfica — E-commerce
