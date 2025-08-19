@@ -6,7 +6,7 @@
 ## Sumário
 
 - [Objetivo](#-objetivo)
-- [Tecnologias](#-tecnologias-utilizadas)
+- [Tecnologias](#tecnologias-utilizadas)
 - [Estrutura](#-estrutura-do-projeto)
 - [Exemplos de Gráficos](#-exemplos-de-gráficos)
 - [Insights Possíveis](#-insights-possíveis)
